@@ -8,13 +8,13 @@ export default withMermaid(
     themeConfig: {
       // https://vitepress.dev/reference/default-theme-config
       nav: [
-        { text: "Home", link: "/" },
-        { text: "Examples", link: "/markdown-examples" },
+        { text: "Teoría", link: "/docs/teoria/introduccion/software" },
+        { text: "Práctica", link: "/markdown-examples" },
       ],
 
       sidebar: [
         {
-          text: "📚 Teoría",
+          text: "Teoría",
           collapsed: true,
           items: [
             {
@@ -92,6 +92,29 @@ export default withMermaid(
             {
               text: "Funciones y Procedimientos",
               link: "/docs/teoria/funciones-procedimientos",
+            },
+          ],
+        },
+        {
+          text: "Práctica",
+          collapsed: true,
+          items: [
+            {
+              text: "Primera aplicación",
+              link: "/docs/practica/primera-aplicacion",
+            },
+            {
+              text: "Condicionales",
+              items: [
+                {
+                  text: "Número positivo, negativo o cero",
+                  link: "/docs/practica/condicionales/positivo-negativo",
+                },
+                {
+                  text: "Par o Impar",
+                  link: "/docs/practica/condicionales/par-impar",
+                },
+              ],
             },
           ],
         },
