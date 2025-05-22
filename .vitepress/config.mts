@@ -3,8 +3,8 @@ import { withMermaid } from "vitepress-plugin-mermaid";
 
 export default withMermaid(
   defineConfig({
-    title: "My Awesome Project",
-    description: "A VitePress Site",
+    title: "Programación 1 - UTN FRSFCO",
+    description: "Material didáctico de Programación 1",
     themeConfig: {
       // https://vitepress.dev/reference/default-theme-config
       nav: [
@@ -98,8 +98,14 @@ export default withMermaid(
       ],
 
       socialLinks: [
-        { icon: "github", link: "https://github.com/vuejs/vitepress" },
+        {
+          icon: "github",
+          link: "https://github.com/lucasnbarbero/guia-programacion-uno",
+        },
       ],
+    },
+    markdown: {
+      lineNumbers: true, // Mostrar números de línea en bloques de código
     },
   })
 );

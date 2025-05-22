@@ -1,25 +1,23 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
+# Página de inicio personalizada para el sitio VitePress
 layout: home
 
+# Sección principal "Hero" que presenta el proyecto con título, texto y eslogan
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "Material Didáctico Programación 1"
+  text: "Sitio web para el curso de Programación 1 - UTN FRSFCO"
+  tagline: "Aprende programación de manera clara y práctica"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: "Comencemos"
+      link: /docs/teoria/introduccion/software
 
+# Características destacadas para motivar y guiar al estudiante
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: "📚 Contenido Estructurado"
+    details: "Material organizado en secciones claras para facilitar el aprendizaje progresivo."
+  - title: "🔄 Soporte para Diagramas"
+    details: "Incluye diagramas Mermaid para visualizar conceptos clave como bucles y estructuras de control."
+  - title: "💻 Ejemplos y Código"
+    details: "Ejemplos en PSeInt y C# para conectar teoría y práctica desde el primer momento."
 ---
-
