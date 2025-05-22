@@ -7,7 +7,7 @@ Escribe un programa que solicite al usuario ingresar un número entero y luego l
 ```csharp
 using System;
 
-namespace Primera_Aplicacion
+namespace Aplicacion
 {
     internal class Program
     {

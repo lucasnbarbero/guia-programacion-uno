@@ -9,7 +9,7 @@ export default withMermaid(
       // https://vitepress.dev/reference/default-theme-config
       nav: [
         { text: "Teoría", link: "/docs/teoria/introduccion/software" },
-        { text: "Práctica", link: "/markdown-examples" },
+        { text: "Práctica", link: "/docs/practica/primera-aplicacion" },
       ],
 
       sidebar: [
@@ -101,6 +101,7 @@ export default withMermaid(
           items: [
             {
               text: "Primera aplicación",
+              collapsed: true,
               link: "/docs/practica/primera-aplicacion",
             },
             {
@@ -113,6 +114,22 @@ export default withMermaid(
                 {
                   text: "Par o Impar",
                   link: "/docs/practica/condicionales/par-impar",
+                },
+                {
+                  text: "Día de la semana",
+                  link: "/docs/practica/condicionales/dia-semana",
+                },
+                {
+                  text: "Mayor de dos números",
+                  link: "/docs/practica/condicionales/mayor",
+                },
+                {
+                  text: "Mostrar calificación",
+                  link: "/docs/practica/condicionales/traducir-calificacion",
+                },
+                {
+                  text: "Año Bisiesto",
+                  link: "/docs/practica/condicionales/anio-bisiesto",
                 },
               ],
             },

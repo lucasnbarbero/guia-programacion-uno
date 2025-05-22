@@ -7,7 +7,7 @@ Escribe un programa que pida a la persona que lo use que ingrese un número ente
 ```csharp
 using System;
 
-namespace Primera_Aplicacion
+namespace Aplicacion
 {
     internal class Program
     {
