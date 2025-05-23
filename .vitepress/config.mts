@@ -105,7 +105,7 @@ export default withMermaid(
               link: "/docs/practica/primera-aplicacion",
             },
             {
-              text: "Condicionales",
+              text: "if-else-elseif",
               items: [
                 {
                   text: "Número positivo, negativo o cero",
@@ -130,6 +130,19 @@ export default withMermaid(
                 {
                   text: "Año Bisiesto",
                   link: "/docs/practica/condicionales/anio-bisiesto",
+                },
+              ],
+            },
+            {
+              text: "while",
+              items: [
+                {
+                  text: "Números positivos",
+                  link: "/docs/practica/while/suma-positivos",
+                },
+                {
+                  text: "Clave de acceso",
+                  link: "/docs/practica/while/clave-acceso",
                 },
               ],
             },
