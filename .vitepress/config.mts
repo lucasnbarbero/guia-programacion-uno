@@ -146,6 +146,20 @@ export default withMermaid(
                 },
               ],
             },
+            {
+              text: "Optativos 1",
+              collapsed: true,
+              items: [
+                {
+                  text: "Multiplicador",
+                  link: "/docs/practica/optativos-1/multiplicador",
+                },
+                {
+                  text: "Positivo, Negativo, Neutro",
+                  link: "/docs/practica/optativos-1/positivo-negativo-neutro",
+                },
+              ],
+            },
           ],
         },
       ],

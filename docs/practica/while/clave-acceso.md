@@ -14,6 +14,8 @@ Escribe un programa que simule un sistema de seguridad para un PIN. El programa 
 
 ¡Tu misión es construir este pequeño guardián digital! ✨
 
+## 💡 Resolución
+
 ```csharp
 string pin = "1234";
 int contador = 3;
