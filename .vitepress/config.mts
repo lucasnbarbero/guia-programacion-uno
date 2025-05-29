@@ -160,6 +160,22 @@ export default withMermaid(
                 },
               ],
             },
+            {
+              text: "Funciones y Procedimientos",
+              collapsed: true,
+              items: [
+                {
+                  text: "Recursividad",
+                  collapsed: true,
+                  items: [
+                    {
+                      text: "04 - Ta Te Ti",
+                      link: "/docs/practica/funciones-procedimientos/ta-te-ti",
+                    },
+                  ],
+                },
+              ],
+            },
           ],
         },
       ],
