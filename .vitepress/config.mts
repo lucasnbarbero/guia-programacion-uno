@@ -165,6 +165,18 @@ export default withMermaid(
               collapsed: true,
               items: [
                 {
+                  text: "01 - Carrito de compras",
+                  link: "/docs/practica/funciones-procedimientos/carrito-compras",
+                },
+                {
+                  text: "02 - Clima",
+                  link: "/docs/practica/funciones-procedimientos/clima",
+                },
+                {
+                  text: "03 - Quiz",
+                  link: "/docs/practica/funciones-procedimientos/quiz",
+                },
+                {
                   text: "Recursividad",
                   collapsed: true,
                   items: [
