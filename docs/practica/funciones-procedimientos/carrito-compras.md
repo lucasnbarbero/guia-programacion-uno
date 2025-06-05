@@ -28,3 +28,193 @@ Este desafío es perfecto para consolidar varios conceptos fundamentales de Prog
 ## ✅ Conclusión
 
 Este ejercicio te desafía a construir una aplicación funcional que simula un sistema del mundo real, aplicando de forma integrada los conocimientos sobre **vectores**, **validaciones** y **modularización**. ¡Es una excelente oportunidad para reforzar tu capacidad de estructurar programas complejos y resolver problemas de manera eficiente! 📈✨
+
+
+## 📄 Resolución del ejercicio
+
+```csharp
+using System;
+
+namespace carrito_compras
+{
+    internal class Program
+    {
+        static string[] productos = new string[]
+            {
+                "Café chico",
+                "Café grande",
+                "Medialuna",
+                "Tostado de jamón y queso",
+                "Jugo de naranja",
+                "Submarino",
+                "Té",
+                "Agua mineral",
+                "Factura surtida",
+                "Sandwich de miga"
+            };
+
+        static int[] precios = new int[]
+            {
+                    500,  // Café chico
+                    650,  // Café grande
+                    350,  // Medialuna
+                    850,  // Tostado de jamón y queso
+                    700,  // Jugo de naranja
+                    800,  // Submarino
+                    600,  // Té
+                    400,  // Agua mineral
+                    380,  // Factura surtida
+                    700   // Sandwich de miga
+            };
+        static string[] nombresCarrito = new string[10];
+        static int[] cantidadCarrito = new int[10];
+        static int totalProductos = 0;
+
+        static void Main(string[] args)
+        {
+            int opcion = 0;
+            while (opcion != 6)
+            {
+                Console.WriteLine("Elija una opcion:");
+                opcion = int.Parse(Console.ReadLine());
+
+                switch (opcion)
+                {
+                    case 1:
+                        MostrarProductos();
+                        break;
+                    case 2:
+                        AgregarProductoAlCarrito();
+                        break;
+                    case 3:
+                        MostrarInformacionDelCarrito();
+                        break;
+                    case 4:
+                        CerrarOrden();
+                        break;
+                    case 5:
+                        VaciarCarrito();
+                        break;
+                    case 6:
+                        break;
+                    default:
+                        Console.WriteLine("Ingreso invalido");
+                        break;
+                }
+            }
+        }
+
+        static void MostrarProductos()
+        {
+            for (int i = 0; i < productos.Length; i++)
+            {
+                Console.WriteLine($"{productos[i]} - ${precios[i]}");
+            }
+        }
+
+        static void AgregarProductoAlCarrito()
+        {
+            Console.WriteLine("Ingrese el nombre del producto que quiere agregar");
+            string nombre = Console.ReadLine();
+            if (!ProductoExistente(nombre))
+            {
+                Console.WriteLine("El producto no existe");
+                return;
+            }
+
+            nombresCarrito[totalProductos] = nombre;
+            int cantidad = ValidarEntero("Ingrese la cantidad a comprar");
+            cantidadCarrito[totalProductos] = cantidad;
+
+            totalProductos++;
+        }
+
+        static void MostrarInformacionDelCarrito()
+        {
+            if (totalProductos == 0)
+            {
+                Console.WriteLine("No hay productos en el carrito");
+                return;
+            }
+
+            for (int i = 0; i < totalProductos; i++)
+            {
+                int indice = 0;
+
+                for (int j = 0; j < productos.Length; j++)
+                {
+                    if (productos[j].ToLower() == nombresCarrito[i].ToLower())
+                    {
+                        indice = j;
+                    }
+                }
+                Console.WriteLine($"{nombresCarrito[i]} - {cantidadCarrito[i]} - ${precios[indice]} - Subtotal: ${cantidadCarrito[i] * precios[indice]}");
+            }
+        }
+
+        static void CerrarOrden()
+        {
+            // Mostrar el total de la orden
+            if (totalProductos == 0)
+            {
+                Console.WriteLine("No hay productos en el carrito");
+                return;
+            }
+
+            MostrarInformacionDelCarrito();
+            int suma = 0;
+            for (int i = 0; i < totalProductos; i++)
+            {
+                int indice = 0;
+
+                for (int j = 0; j < productos.Length; j++)
+                {
+                    if (productos[j].ToLower() == nombresCarrito[i].ToLower())
+                    {
+                        indice = j;
+                    }
+                }
+                suma += cantidadCarrito[i] * precios[indice];
+            }
+
+            Console.WriteLine($"Total de la orden: ${suma}");
+        }
+
+        static void VaciarCarrito()
+        {
+            for (int i = 0; i < totalProductos; i++)
+            {
+                nombresCarrito[i] = string.Empty;
+                cantidadCarrito[i] = 0;
+            }
+            totalProductos = 0;
+
+        }
+
+        static bool ProductoExistente(string nombre)
+        {
+            for (int i = 0; i < productos.Length; i++)
+            {
+                if (productos[i].ToLower() == nombre.ToLower())
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        static int ValidarEntero(string msj)
+        {
+            int valor;
+            Console.WriteLine(msj);
+            while (!int.TryParse(Console.ReadLine(), out valor))
+            {
+                Console.WriteLine("Ingreso inválido");
+            }
+
+            return valor;
+        }
+    }
+}
+
+```
