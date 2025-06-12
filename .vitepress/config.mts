@@ -151,12 +151,80 @@ export default withMermaid(
               collapsed: true,
               items: [
                 {
-                  text: "Multiplicador",
-                  link: "/docs/practica/optativos-1/multiplicador",
+                  text: "01 - Multiplicador",
+                  link: "/docs/practica/optativos-1/01-multiplicador",
                 },
                 {
-                  text: "Positivo, Negativo, Neutro",
-                  link: "/docs/practica/optativos-1/positivo-negativo-neutro",
+                  text: "02 - Positivo, Negativo, Neutro",
+                  link: "/docs/practica/optativos-1/02-positivo-negativo-neutro",
+                },
+                {
+                  text: "03 - Par - Impar",
+                  link: "/docs/practica/optativos-1/03-par-impar",
+                },
+                {
+                  text: "04 - Mayor de dos",
+                  link: "/docs/practica/optativos-1/04-mayor-de-dos",
+                },
+                {
+                  text: "05 - Mayor de tres",
+                  link: "/docs/practica/optativos-1/05-mayor-de-tres",
+                },
+                {
+                  text: "06 - Cálculo de salario",
+                  link: "/docs/practica/optativos-1/06-calculo-salario",
+                },
+                {
+                  text: "07 - Cálculo de salario",
+                  link: "/docs/practica/optativos-1/07-poliza-seguro",
+                },
+                {
+                  text: "08 - Sumar 100 números",
+                  link: "/docs/practica/optativos-1/08-suma-cien-numeros",
+                },
+                {
+                  text: "09 - Promedio 200 números",
+                  link: "/docs/practica/optativos-1/09-promedio-200-numeros",
+                },
+                {
+                  text: "10 - Análisis de números",
+                  link: "/docs/practica/optativos-1/10-analisis-numeros",
+                },
+                {
+                  text: "11 - Mayor y menor",
+                  link: "/docs/practica/optativos-1/11-mayor-menor",
+                },
+                {
+                  text: "12 - Análisis peso por categoría",
+                  link: "/docs/practica/optativos-1/12-peso-por-categoria",
+                },
+                {
+                  text: "13 - Análisis del clima semanal",
+                  link: "/docs/practica/optativos-1/13-clima-semanal",
+                },
+                {
+                  text: "14 - Serie impares",
+                  link: "/docs/practica/optativos-1/14-serie-impares",
+                },
+                {
+                  text: "15 - Calificador alumnos",
+                  link: "/docs/practica/optativos-1/15-calificador-alumnos",
+                },
+                {
+                  text: "16 - Sumar serie",
+                  link: "/docs/practica/optativos-1/16-sumar-serie",
+                },
+                {
+                  text: "17 - Análisis partidos deportivos",
+                  link: "/docs/practica/optativos-1/17-analisis-partidos-deportivos",
+                },
+                {
+                  text: "18 - Calculadora de Descuentos",
+                  link: "/docs/practica/optativos-1/18-calcular-descuentos",
+                },
+                {
+                  text: "19 - Liquidar Sueldos",
+                  link: "/docs/practica/optativos-1/19-liquidar-sueldos",
                 },
               ],
             },
