@@ -108,7 +108,7 @@ export default withMermaid(
               text: "if-else-elseif",
               items: [
                 {
-                  text: "Número positivo, negativo o cero",
+                  text: "Número positivo, negativo",
                   link: "/docs/practica/condicionales/positivo-negativo",
                 },
                 {
@@ -225,6 +225,32 @@ export default withMermaid(
                 {
                   text: "19 - Liquidar Sueldos",
                   link: "/docs/practica/optativos-1/19-liquidar-sueldos",
+                },
+              ],
+            },
+            {
+              text: "Optativos 2",
+              collapsed: true,
+              items: [
+                {
+                  text: "01 - Calcular factorial",
+                  link: "/docs/practica/optativos-2/01-factorial",
+                },
+                {
+                  text: "02 - Encontrar mayor edad",
+                  link: "/docs/practica/optativos-2/02-mayor-edad",
+                },
+                {
+                  text: "03 - Número a dia de la semana",
+                  link: "/docs/practica/optativos-2/03-numero-a-dia-semana",
+                },
+                {
+                  text: "04 - Calculador de Triángulos",
+                  link: "/docs/practica/optativos-2/04-calculadora-triangulos",
+                },
+                {
+                  text: "05 - Precio  de Sillas",
+                  link: "/docs/practica/optativos-2/05-precio-sillas-descuento",
                 },
               ],
             },
