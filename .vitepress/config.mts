@@ -106,6 +106,7 @@ export default withMermaid(
             },
             {
               text: "if-else-elseif",
+              collapsed: true,
               items: [
                 {
                   text: "Número positivo, negativo",
@@ -135,6 +136,7 @@ export default withMermaid(
             },
             {
               text: "while",
+              collapsed: true,
               items: [
                 {
                   text: "Números positivos",
@@ -251,6 +253,132 @@ export default withMermaid(
                 {
                   text: "05 - Precio  de Sillas",
                   link: "/docs/practica/optativos-2/05-precio-sillas-descuento",
+                },
+              ],
+            },
+            {
+              text: "Arrays",
+              collapsed: true,
+              items: [
+                {
+                  text: "Suma y Promedio",
+                  link: "/docs/practica/arrays/suma-promedio",
+                },
+                {
+                  text: "Transformación condicional",
+                  link: "/docs/practica/arrays/vector-transformacion-par-impar",
+                },
+                {
+                  text: "Comparación vectores",
+                  link: "/docs/practica/arrays/comparacion-vectores",
+                },
+                {
+                  text: "Suma en matriz por fila",
+                  link: "/docs/practica/arrays/suma-filas",
+                },
+                {
+                  text: "Promedio en matriz por columna",
+                  link: "/docs/practica/arrays/promedio-columnas",
+                },
+                {
+                  text: "Suma diagonal principal",
+                  link: "/docs/practica/arrays/suma-diagonal-principal",
+                },
+                {
+                  text: "Optativos - Vectores",
+                  collapsed: true,
+                  items: [
+                    {
+                      text: "02 - Búsqueda de apellido",
+                      link: "/docs/practica/arrays/optativos-vectores/02-busqueda-apellido-vector",
+                    },
+                    {
+                      text: "03 - Porcentaje y Promedio por Paridad",
+                      link: "/docs/practica/arrays/optativos-vectores/03-porcentaje-promedio-paridad",
+                    },
+                    {
+                      text: "04 - Análisis de Estaturas",
+                      link: "/docs/practica/arrays/optativos-vectores/04-analisis-estaturas",
+                    },
+                    {
+                      text: "05 - Análisis Vector Completo",
+                      link: "/docs/practica/arrays/optativos-vectores/05-analisis-vector-completo",
+                    },
+                    {
+                      text: "06 - Gestión de Choferes",
+                      link: "/docs/practica/arrays/optativos-vectores/06-gestion-choferes",
+                    },
+                    {
+                      text: "07 - Compras semanales",
+                      link: "/docs/practica/arrays/optativos-vectores/07-compras-semanales",
+                    },
+                    {
+                      text: "08 - Temperaturas mensuales",
+                      link: "/docs/practica/arrays/optativos-vectores/08-analisis-temperaturas-mes",
+                    },
+                    {
+                      text: "09 - Relevamiento de Abuelos",
+                      link: "/docs/practica/arrays/optativos-vectores/09-relevamiento-abuelos",
+                    },
+                    {
+                      text: "10 - Competencia de Mountain Bike",
+                      link: "/docs/practica/arrays/optativos-vectores/10-analisis-competencia-mtb",
+                    },
+                  ],
+                },
+                {
+                  text: "Optativos - Matrices",
+                  collapsed: true,
+                  items: [
+                    {
+                      text: "01 - Suma por Fila de una Matriz",
+                      link: "/docs/practica/arrays/optativos-matrices/01-suma-filas-matriz",
+                    },
+                    {
+                      text: "02 - Análisis de Ventas",
+                      link: "/docs/practica/arrays/optativos-matrices/02-analisis-ventas-sucursales",
+                    },
+                    {
+                      text: "03 - Clima anual",
+                      link: "/docs/practica/arrays/optativos-matrices/03-clima-anual",
+                    },
+                    {
+                      text: "04 - Suma por Columnas de una Matriz",
+                      link: "/docs/practica/arrays/optativos-matrices/04-suma-columnas-matriz",
+                    },
+                    {
+                      text: "05 - Notas de un curso",
+                      link: "/docs/practica/arrays/optativos-matrices/05-analisis-notas-curso",
+                    },
+                    {
+                      text: "06 - Liquidación de sueldos para obreros",
+                      link: "/docs/practica/arrays/optativos-matrices/06-liquidacion-sueldos-obreros",
+                    },
+                    {
+                      text: "07 - Análisis de una Matríz Cuadrada",
+                      link: "/docs/practica/arrays/optativos-matrices/07-matriz-cuadrada",
+                    },
+                    {
+                      text: "08 - Ordenamiendo de Filas",
+                      link: "/docs/practica/arrays/optativos-matrices/08-ordenar-filas",
+                    },
+                    {
+                      text: "09 - Paridad en Matriz Cuadrada",
+                      link: "/docs/practica/arrays/optativos-matrices/09-paridad-matriz",
+                    },
+                    {
+                      text: "10 - Suma de la Diagonal Principal",
+                      link: "/docs/practica/arrays/optativos-matrices/10-suma-diagonal-principal",
+                    },
+                    {
+                      text: "11 - Gestión de Contactos",
+                      link: "/docs/practica/arrays/optativos-matrices/11-gestion-contactos-matriz",
+                    },
+                    {
+                      text: "12 - Generación y Análisis de Matriz Especial",
+                      link: "/docs/practica/arrays/optativos-matrices/12-generacion-analisis-matriz-especial",
+                    },
+                  ],
                 },
               ],
             },
